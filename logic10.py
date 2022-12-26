@@ -1,3 +1,6 @@
+from numpy import ma
+
+
 def main(a):
     """
     Given integer a,  check the following statement "The integer is two-digit number".
@@ -6,4 +9,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    answer = a > 9 and a < 100
+    return answer
+
+print(main(10))
