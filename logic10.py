@@ -1,6 +1,3 @@
-from numpy import ma
-
-
 def main(a):
     """
     Given integer a,  check the following statement "The integer is two-digit number".
